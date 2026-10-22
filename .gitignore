@@ -1,0 +1,10 @@
+# Keep credentials and local-only files out of Git.
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
